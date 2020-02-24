@@ -36,4 +36,4 @@ Ans:
 
 10.head -n 10 --- print top 10 ten lines of stdinpt
 
-[](https://upload.wikimedia.org/wikipedia/commons/5/56/Tiger.50.jpg)
+![Image description](https://github.com/vamshizemo/assignment/blob/master/Screenshot%20from%202020-02-24%2012-51-00.png)
