@@ -1,10 +1,10 @@
 **Look at the following command and explain what it does by going through the documentation of each of the individual 
 commands. Use the tools you've learned in the previous lesson to figure out step by step what is happening in the following.**
 
-**curl -s http://public-dns.info/nameserver/br.csv | cut -d, -f1 | shuf | tail -n 50 | xargs -i timeout 1 ping -c1 -w 1 {} | grep "time=" | awk '{print substr($7, 6, length($7)) " " substr($4, 1, length($4) -1)}' | sort -n | awk '{print $2 " " $1 "ms"}' | head -n 10**
+**curl -s http://public-dns.info/nameserver/br.csv | cut -d, -f1 | shuf | tail -n 50 | xargs -i timeout 1 ping -c1 -w 1 {} | grep "time=" | awk '{print substr($7, 6, length($7)) " " substr($4, 1, length($4) -1)}' | sort -n | awk '{print $2 " " $1 "ms"}' | head -n 10 **
 
 
-**In the submission, explain how the each command, its options and complete command works. Also add a screenshot of the output(4 or 5 lines after running the command will be enough) **
+** In the submission, explain how the each command, its options and complete command works. Also add a screenshot of the output(4 or 5 lines after running the command will be enough) **
 
 
 Ans:
