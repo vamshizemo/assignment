@@ -35,3 +35,5 @@ Ans:
 9.awk '{print $2 " " $1 "ms"}'   --- print the second column followed by a space" " and first column concatenated with "ms" string
 
 10.head -n 10 --- print top 10 ten lines of stdinpt
+
+[](https://upload.wikimedia.org/wikipedia/commons/5/56/Tiger.50.jpg)
