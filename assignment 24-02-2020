@@ -21,7 +21,7 @@ Ans:
 5.xargs -i timeout 1 ping -c1 -w 1 {}      -- xargs - build and execute command lines from standard input, "-i" option for replace each line from stdinpt into the place {} in commands followd by xargs 
 															timeout [t]  [command]-- this command execute the following command for limit amount of time "t"
 															ping -- used for pinging an ip address
-														    ping -c [t] [ip]---ping the ip address for timelimit 't'
+														    ping -c [n] [ip]---ping the ip address for 'n' packets
 																	-w [t]  --- exits for the time "t" which is deadline time,
 6.grep "time=" -- prints the line which has pattern "time=" in it.
 
